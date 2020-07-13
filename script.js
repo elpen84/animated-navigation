@@ -14,8 +14,6 @@ function navAnimation(direction1, direction2) {
       `slide-${direction1}-${i + 1}`,
       `slide-${direction2}-${i + 1}`
     );
-    console.log(`${navItems[0]}.slide-${direction1}-${i}`);
-    console.log(typeof navItems);
   });
 }
 
